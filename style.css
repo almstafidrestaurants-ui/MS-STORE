@@ -4185,11 +4185,11 @@ font-size:22px;
 /* ================================================ CLIENTS SECTION ================================================= */
 /* ======== CLIENTS MOBILE STYLE ======== */
 .services-grid{
-    gap:18px;
+    gap:5px;
 }
 
 .services-grid .client-row{
-    background:#f5f7fa;
+   background:linear-gradient(135deg,#071325,#0B1D38);
     min-height:130px;
     padding:15px 18px;
     border-radius:30px;
