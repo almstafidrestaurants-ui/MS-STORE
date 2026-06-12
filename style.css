@@ -4188,7 +4188,7 @@ font-size:22px;
 .services-grid{
     display:flex;
     flex-direction:column;
-    gap:15px;
+    gap:5px;
 }
 
 .services-grid .client-row{
