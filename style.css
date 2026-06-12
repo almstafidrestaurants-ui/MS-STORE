@@ -4317,7 +4317,7 @@ font-size:22px;
     overflow:hidden;
     box-shadow:0 10px 30px rgba(0,0,0,.08);
     margin-bottom:18px;
-    min-height: 180PX;
+    min-height: 130PX;
     height: auto;
     align-items: stretch;
 
@@ -4345,7 +4345,7 @@ font-size:22px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-      text-align:center;
+      text-align:right;
   
     padding:15PX 12px;
 
