@@ -4340,44 +4340,42 @@ font-size:22px;
 
 /* المحتوى */
 .service-content{
-    position:relative;
-    text-align:right;
-    padding:15PX 10px;
-    flex: 1;
+
+        flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
+      text-align:center;
+  
+    padding:15PX 12px;
+
 }
 
 /* الرقم */
 .service-number{
-    position:absolute;
-    top:8px;
-    left:50%;
-    transform:translateX(-50%);
-
-    width:20px;
-    height:20px;
+    width:35px;
+    height:35px;
 
     border-radius:50%;
     background:linear-gradient(135deg,#3baee7,#1d5aa6);
 
-    color:white;
-    font-size:6px;
+    color:#fff;
+    font-size:13px;
     font-weight:bold;
 
     display:flex;
     justify-content:center;
     align-items:center;
 
-    border:3px solid #fff;
+    margin:0 auto 15px auto;
 }
 
 /* العنوان */
 .service-content h3{
-    font-size:13px;
+    font-size:15px;
+    line-height: 1.6;
     color:#102542;
-    margin-bottom:6px;
+    margin-bottom:10px;
 }
 
 /* الوصف */
