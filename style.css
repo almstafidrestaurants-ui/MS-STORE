@@ -4184,72 +4184,83 @@ font-size:22px;
 
 /* ================================================ CLIENTS SECTION ================================================= */
 /* ======== CLIENTS MOBILE STYLE ======== */
-
-    .services-grid{
-        gap:20px;
-    }
-
-    .services-grid .client-row{
-        min-height:170px;
-        padding:15px;
-        border-radius:35px;
-        align-items:center;
-    }
-
-    /* الصورة */
-    .services-grid .client-image{
-        width:90px;
-        min-width:90px;
-        height:90px;
-        padding:0;
-    }
-
-    .services-grid .client-image img{
-        width:100%;
-        height:100%;
-        border-radius:50%;
-        object-fit:cover;
-    }
-
-    /* النص */
-    .services-grid .client-content{
-        flex:1;
-        padding:0 15px;
-        text-align:right;
-    }
-
-    /* العنوان */
-    .services-grid .client-content h3{
-        font-size:18px;
-        line-height:1.4;
-        margin-bottom:10px;
-        white-space:nowrap;
-    }
-
-    /* الوصف */
-    .services-grid .client-content p{
-        font-size:13px;
-        line-height:1.8;
-        color:#d7d7d7;
-        margin:0;
-    }
-
-    /* السهم */
-    .client-arrow{
-        width:35px;
-        min-width:35px;
-        display:flex;
-        justify-content:center;
-        align-items:center;
-    }
-
-    .client-arrow i{
-        font-size:26px;
-        color:#9b9b9b;
-    }
-
+.services-grid{
+    gap:18px;
 }
 
+.services-grid .client-row{
+    background:#f5f7fa;
+    min-height:130px;
+    padding:15px 18px;
+    border-radius:30px;
+    display:flex;
+    align-items:center;
+    box-shadow:none;
+    transition:.3s;
+    margin-left: auto;
+}
+
+.services-grid .client-row:hover{
+    background:#121216;
+}
+
+/* الصورة */
+.services-grid .client-image{
+    width:85px;
+    min-width:85px;
+    height:85px;
+    padding:0;
+}
+
+.services-grid .client-image img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    border-radius:25px;
+}
+
+/* النص */
+.services-grid .client-content{
+    flex:1;
+    padding:0 20px;
+    text-align:right;
+}
+
+/* العنوان */
+.services-grid .client-content h3{
+    font-size:20px;
+    color:white;
+    font-weight:700;
+    margin-bottom:8px;
+    white-space:nowrap;
+}
+
+/* الوصف */
+.services-grid .client-content p{
+    font-size:13px;
+    color:#76767D;
+    line-height:1.6;
+    margin:0;
+}
+
+/* السهم */
+.client-arrow{
+    width:25px;
+    min-width:25px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.client-arrow i{
+    font-size:20px;
+    color:#6d6d72;
+    transition:.3s;
+}
+
+.client-row:hover .client-arrow i{
+    color:#8a7cff;
+}
 
 /* ===================================================== CLIENTS MODAL ========================================== */
 
