@@ -15,12 +15,6 @@ body{
     background-color: #f5f7fa;
 }
 
-html,
-body{
-    overflow-x:hidden;
-    width:100%;
-}
-
 /* ================= HEADER ================= */
 
 .header{
@@ -4207,7 +4201,7 @@ font-size:22px;
 }
 
 .services-grid .client-row:hover{
-    background:#121216;
+      background:linear-gradient(135deg,#16325C,#0E2345);
 }
 
 /* الصورة */
